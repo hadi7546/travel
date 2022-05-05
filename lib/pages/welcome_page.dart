@@ -72,11 +72,8 @@ class _WelcomePageState extends State<WelcomePage> {
                         onTap: () {
                           BlocProvider.of<TravelCubits>(context).getData();
                         },
-                        child: Container(
-                          width: 200,
-                          child: const ResponsiveButton(
-                            isResponsive: false,
-                          ),
+                        child: const ResponsiveButton(
+                          isResponsive: false,
                         ),
                       ),
                     ],
