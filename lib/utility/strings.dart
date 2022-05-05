@@ -1,5 +1,5 @@
 class AppUrls {
-  static const String baseUrl = "http://mark.bslmeiyu.com/";
+  static const String baseUrl = "http://mark.bslmeiyu.com";
   static const String getPlaces = "/api/getplaces";
   static const String uploads = "/uploads";
   static const String hadiImage = "http://hadi7546.ir/Hadi.png";
@@ -22,6 +22,7 @@ class AppTexts {
   static const String description = "Description";
   static const String descriptionLong =
       "You must go for travel. Traveling helps get rid of pressure. Go to mountains to see the nature.";
+  static const String discover = "Discover";
   static const String places = "Places";
   static const String inspiration = "Inspiration";
   static const String emotions = "Emotions";

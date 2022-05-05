@@ -39,7 +39,10 @@ class _DetailPageState extends State<DetailPage> {
                   decoration: BoxDecoration(
                     image: DecorationImage(
                       image: NetworkImage(
-                        AppUrls.baseUrl + AppUrls.uploads + data.place.img,
+                        AppUrls.baseUrl +
+                            AppUrls.uploads +
+                            "/" +
+                            data.place.img,
                       ),
                       fit: BoxFit.cover,
                     ),

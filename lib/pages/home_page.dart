@@ -63,7 +63,9 @@ class _HomePageState extends State<HomePage> {
                             width: 50,
                             height: 50,
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(10),
+                              image: const DecorationImage(
+                                  image: NetworkImage(AppUrls.hadiImage)),
+                              borderRadius: BorderRadius.circular(8),
                               color: Colors.grey.withOpacity(0.5),
                             ),
                           ),
@@ -75,7 +77,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Container(
                       margin: const EdgeInsets.only(left: 20),
-                      child: const AppLargeText(text: "Discover"),
+                      child: const AppLargeText(text: AppTexts.discover),
                     ),
                     const SizedBox(
                       height: 30,
@@ -130,6 +132,7 @@ class _HomePageState extends State<HomePage> {
                                       image: NetworkImage(
                                         AppUrls.baseUrl +
                                             AppUrls.uploads +
+                                            "/" +
                                             info[index].img,
                                       ),
                                       fit: BoxFit.cover,
@@ -262,9 +265,13 @@ Widget buildMenu() {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: const [
-              CircleAvatar(
-                backgroundImage: NetworkImage(AppUrls.hadiImage),
-                radius: 22.0,
+              SizedBox(
+                width: 200,
+                height: 200,
+                child: CircleAvatar(
+                  backgroundImage: NetworkImage(AppUrls.hadiImage),
+                  radius: 22.0,
+                ),
               ),
               SizedBox(height: 16.0),
               Text(
