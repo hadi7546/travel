@@ -1,16 +1,17 @@
-# travel
+# Travel app
 
-A new Flutter project.
+## Preview:
 
-## Getting Started
+!["Preview"](preview.mp4)
 
-This project is a starting point for a Flutter application.
+## Package used in this project:
 
-A few resources to get you started if this is your first Flutter project:
+> ### State Management: BloC/Cubit
+>
+> ### Networking: http
+>
+> ### equatable, shrink_sidemenu and flutter_gen
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<br><br>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### I see video for this project: [Link](https://youtube.com/watch?v=bfziV1u2Vfi)
