@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Travel App',
+      title: 'Travel',
       debugShowCheckedModeBanner: false,
       home: BlocProvider<TravelCubits>(
         create: (context) => TravelCubits(
